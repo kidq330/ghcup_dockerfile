@@ -1,6 +1,6 @@
 # courtesy of https://stackoverflow.com/a/71513191
 
-ARG BASE_DEBIAN
+ARG BASE_DEBIAN=ghcr.io/kidq330/mise_dockerfile:main
 FROM $BASE_DEBIAN
 
 # install dependencies
