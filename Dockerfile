@@ -35,3 +35,4 @@ RUN \
     curl https://downloads.haskell.org/~ghcup/x86_64-linux-ghcup > /usr/bin/ghcup && \
     chmod +x /usr/bin/ghcup && \
     ghcup config set gpg-setting GPGStrict
+ENV PATH="/root/.ghcup/bin:${PATH}"
